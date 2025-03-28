@@ -33,9 +33,15 @@ l2_weights = [0.00001]
 momentums = [0.9] 
 
 # 超参数
-n_epoch = 5  # 增加训练轮数，因为CIFAR-10较复杂
+n_epoch = 15  # 增加训练轮数，因为CIFAR-10较复杂
 batch_size = 128  # 小批量更新，减少每次的梯度波动
 # 选择使用的优化器
 use_sgd_momentum = True  # 改为 True 使用SGD Momentum, False则使用普通SGD
 best_val_acc = 0.0
+```
+加载并测试训练好的模型
+```
+model = load_model('./result/best_cifar10_model.pkl')
+evaluator = Evaluator(model)
+evaluator.eval(X_test, y_test, batch_size=128)
 ```
