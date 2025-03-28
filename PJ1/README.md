@@ -19,3 +19,23 @@ Three Layer Neural Network
 ├── readme.md                # 关于实验代码的说明
 ```
 
+训练模型
+```
+python main.py
+```
+
+如果想改变超参数，直接在main.py里修改即可
+```
+# 最优参数  
+learning_rates = [0.01]
+n_neurons = [512]
+l2_weights = [0.00001]
+momentums = [0.9] 
+
+# 超参数
+n_epoch = 5  # 增加训练轮数，因为CIFAR-10较复杂
+batch_size = 128  # 小批量更新，减少每次的梯度波动
+# 选择使用的优化器
+use_sgd_momentum = True  # 改为 True 使用SGD Momentum, False则使用普通SGD
+best_val_acc = 0.0
+```
