@@ -1,6 +1,6 @@
 # Computer Vision PJ1
 Three Layer Nerual Network
-
+'''
 ├──data                     # CIFAR-10数据集
 ├──utils.py                 # 载入数据 & 保存、加载训练好的模型 &可视化神经网络的辅助函数
 ├──layers.py                # 输入层 & 全连接层 & 激活函数
@@ -17,3 +17,4 @@ Three Layer Nerual Network
     
 ├──model                    # 存放训练好的模型参数
 ├──readme.md                # 关于实验代码的说明
+'''
