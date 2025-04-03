@@ -3,17 +3,17 @@ Three Layer Neural Network
 
 ```
 ├── data                     # CIFAR-10数据集
-├── utils.py                 # 载入数据 & 保存、加载训练好的模型 & 可视化神经网络loss,accuracy的辅助函数
+├── utils.py                 # 载入数据 & 保存、加载训练好的模型 & 可视化神经网络loss,accuracy,weights的辅助函数
 ├── layers.py                # 输入层 & 全连接层 & 激活函数
 ├── training-core.py         # 优化器 & 损失函数 & 训练神经网络所需的类
 ├── model.py                 # 传入参数，构建神经网络模型
 ├── evaluate.py              # 评估模型
 ├── accuracy.py              # 计算accuracy
 
-├── activation_experiment.py # 对比activation function性能
-├── optimizer_experiment.py  # 对比optimizer性能
+├── activation_experiment.py # 对比不同activation function性能
+├── optimizer_experiment.py  # 对比不同optimizer性能
 ├── plot                     # 以上两个实验的实验结果
-├── main.py                  # 寻找最优超参数,两个全连接层权重的热力图、分布图函数
+├── main.py                  # 训练模型
 
 ├── model                    # 存放训练好的模型参数
 ├── readme.md                # 关于实验代码的说明
