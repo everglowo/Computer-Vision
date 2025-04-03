@@ -13,7 +13,7 @@ Three Layer Neural Network
 ├── activation_experiment.py # 对比不同activation function性能
 ├── optimizer_experiment.py  # 对比不同optimizer性能
 ├── plot                     # 以上两个实验的实验结果
-├── main.py                  # 训练模型
+├── main.py                  # 主函数，在终端运行的代码
 
 ├── model                    # 存放训练好的模型参数
 ├── readme.md                # 关于实验代码的说明
