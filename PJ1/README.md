@@ -15,7 +15,7 @@ Three Layer Neural Network
 ├── plot                     # 以上两个实验的实验结果
 ├── main.py                  # 主函数，在终端运行的代码
 
-├── model                    # 存放训练好的模型参数
+├── result                   # 存放训练好的模型参数
 ├── readme.md                # 关于实验代码的说明
 ```
 
