@@ -87,7 +87,7 @@ param_scheduler = [
         begin=0,
         end=MAX_EPOCH,
         by_epoch=True,
-        milestones=[4],  # 在..个 epoch 降低学习率
+        milestones=[8,11],  # 在..个 epoch 降低学习率
         gamma=0.1)
 ]
 # 训练和测试配置
