@@ -89,7 +89,7 @@ Lab2-2/mask-rcnn_r50_fpn_amp-1x_coco.py
 Lab2-2/sparse-rcnn_r50_fpn_1x_coco.py
 ```
 
-编辑配置文件，修改以下关键参数：
+编辑配置文件，修改以下关键参数：（optimizer、learning rate、epoch等具体配置见代码）
 
 
 
