@@ -63,13 +63,13 @@ Lab2-2/
 │       ├── annotations/
 
 
-│       │   ├── instances\_train2017.json
+│       │   ├── instances_train2017.json
 
 
-│       │   ├── instances\_val2017.json
+│       │   ├── instances_val2017.json
 
 
-│       │   └── instances\_test2017.json
+│       │   └── instances_test2017.json
 
 
 │       ├── train2017/
