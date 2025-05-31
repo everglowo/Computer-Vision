@@ -24,7 +24,15 @@ tensorboard --logdir ./logs/summaries/
 Then open http://localhost:6006/ in your browser
 
 ### 🎥 NeRF Demo
-[▶️ Click to watch NeRF video](Final%20PJ/demo/nerf_100k.mp4)
+
+
+
+
+
+
+
+
+[▶️ Click to watch NeRF video](https://github.com/user-attachments/assets/368b53e1-4012-4522-8e25-b7dee9cc7778)
 
 
 
@@ -33,4 +41,4 @@ Then open http://localhost:6006/ in your browser
 
 # Task 3: 3D Gaussian Splatting
 ### 🎥 3D Gaussian Splatting Demo
-[▶️ Click to watch Splatting video](Final%20PJ/demo/splatfacto_360.mp4)
+[▶️ Click to watch Splatting video](https://github.com/user-attachments/assets/e17405e6-b9b6-462f-b15b-bc6f410266a3)
