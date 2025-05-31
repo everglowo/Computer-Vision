@@ -29,15 +29,15 @@ Then open http://localhost:6006/ in your browser
 
 
 
-
-
-
 [▶️ Click to watch NeRF video](https://github.com/user-attachments/assets/368b53e1-4012-4522-8e25-b7dee9cc7778)
 
 
 
 
 # Task 2: Instant NGP
+
+[▶️ Click to watch NeRF video](https://github.com/user-attachments/assets/9eade42d-b7c6-4117-a67d-e0d33d3070f0)
+
 
 # Task 3: 3D Gaussian Splatting
 ### 🎥 3D Gaussian Splatting Demo
