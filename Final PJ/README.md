@@ -34,17 +34,11 @@ Then open http://localhost:6006/ in your browser
 
 ```
 python == 3.9
-
 torch == 2.5.1+cu121
-
 torchvision == 0.20.1+cu121
-
 nerfacc == 0.5.2
-
 nerfstudio == 1.1.5
-
 tinycudann == 1.7
-
 colmap == 3.7 
 ```
 
@@ -57,7 +51,7 @@ ns-process-data images --data data/images --output-dir data/custom
 ## Training
 
 ```
-ns-train instant-ngp --data data/custom
+ns-train instant-ngp --data data/custom --vis viewer+tensorboard
 ```
 
 ## Evaluating
@@ -67,6 +61,14 @@ ns-eval --load-config outputs/custom/instant-ngp/2025-05-29_123740/config.yml --
 ```
 
 ## Visualization
+
+### Tensorboard
+
+```
+tensorboard --logdir=outputs/custom/instant-ngp/2025-05-29_114438
+```
+
+### Render
 
 ```
 ns-render camera-path \
