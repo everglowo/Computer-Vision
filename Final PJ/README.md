@@ -29,7 +29,7 @@ Then open http://localhost:6006/ in your browser
 
 
 # Task 2: Instant NGP
-
+参考：https://github.com/nerfstudio-project/nerfstudio.git
 ## Environment
 
 ```
@@ -62,10 +62,11 @@ ns-eval --load-config outputs/custom/instant-ngp/2025-05-29_123740/config.yml --
 
 ## Visualization
 
-### Tensorboard
+### Tensorboard+Viewer
 
 ```
 tensorboard --logdir=outputs/custom/instant-ngp/2025-05-29_114438
+ns-viewer --load-config outputs/custom/instant-ngp/2025-05-29_123740/config.yml
 ```
 
 ### Render
