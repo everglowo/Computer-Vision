@@ -1,5 +1,5 @@
 <h1 align="center">DATA130051.01 Final Project</h1>
-<h3 align="center"> 周璇 李明泽  </h3>
+
 
 ## Contents
 - [Task 1: NeRF](#task-1-nerf)
